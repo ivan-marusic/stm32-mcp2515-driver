@@ -255,3 +255,7 @@ CNF3                0x82
     <td>PHSEG2=3</td>
   </tr>
 </table>
+
+## License
+
+This project is MIT licensed unless stated otherwise in sub‑folders.
