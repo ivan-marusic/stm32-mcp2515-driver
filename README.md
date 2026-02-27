@@ -146,16 +146,16 @@ while (1) {
 
 ## Driver Initialization Sequence
 Each node must call:
-bash```
+```c
 MCP2515_Reset(&hcan);
 MCP2515_SetBitrate(&hcan);     // 500 kbps, 8 MHz
 MCP2515_SetNormalMode(&hcan);
 ```
 
-```
+```c
 MCP2515_WriteRegister(&hcan, MCP_CANINTE,
-                      CANINTF_RX0IF | CANINTF_RX1IF);```
-
+                      CANINTF_RX0IF | CANINTF_RX1IF);
+```
 Bitrate
 The default bitrate is:
 
