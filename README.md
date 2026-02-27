@@ -54,7 +54,7 @@ Real photos
 Bus topology
 
 ## Repository Structure
-```
+<pre style="pointer-events: none;">
 stm32-mcp2515-driver/
 │
 ├─ Drivers/
@@ -76,7 +76,7 @@ stm32-mcp2515-driver/
 ├─ .gitignore
 ├─ LICENSE
 └─ README.md
-```
+</pre>
 
 ## Hardware
 This project uses two separate CAN nodes:
