@@ -117,7 +117,7 @@ GND       -->    GND
 
 
 ## Example: CAN Sender (STM32F429)
-bash```
+```c
 CAN_MessageTypeDef msg = {
     .id = 0x123,
     .dlc = 8,
@@ -127,10 +127,11 @@ CAN_MessageTypeDef msg = {
 while (1) {
     MCP2515_SendMessage(&hcan, &msg);
     HAL_Delay(1000);
-}```
+}
+```
 
 ## Example: CAN Receiver (STM32F411)
-bash```
+```c
 CAN_MessageTypeDef rx;
 
 while (1) {
@@ -140,7 +141,8 @@ while (1) {
             printf(" %02X", rx.data[i]);
         printf("\r\n");
     }
-}```
+}
+```
 
 ## Driver Initialization Sequence
 Each node must call:
