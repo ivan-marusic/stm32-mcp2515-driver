@@ -163,10 +163,8 @@ SPI connections:
 </table>
 
 ## CAN Bus Wiring
-Both MCP2515 modules are connected using a twisted pair:
-CANH      -->    CANH
-CANL      -->    CANL
-GND       -->    GND
+- Both MCP2515 modules are connected using a twisted pair:
+
 <table>
   <tr>
     <td>CANH </td>
@@ -181,6 +179,7 @@ GND       -->    GND
     <td>GND </td>
   </tr>
 </table>
+
 ## Hardware Photos
 
 
