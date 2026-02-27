@@ -141,6 +141,40 @@ CS        -->     PB12
 INT       -->     PB0 (optional)
 VCC       -->    5V
 GND       -->    GND
+<table>
+  <tr>
+    <th>MCP2515 Pin</th>
+    <th>STM32F411 Pin</th>
+  </tr>
+  <tr>
+    <td>SCK</td>
+    <td>PA5</td>
+  </tr>
+  <tr>
+    <td>MISO</td>
+    <td>PA6</td>
+  </tr>
+  <tr>
+    <td>MOSI</td>
+    <td>PA7</td>
+  </tr>
+  <tr>
+    <td>CS</td>
+    <td>PB12</td>
+  </tr>
+  <tr>
+    <td>INT</td>
+    <td>PB0 (optional)</td>
+  </tr>
+  <tr>
+    <td>VCC</td>
+    <td>5V</td>
+  </tr>
+  <tr>
+    <td>GND</td>
+    <td>GND</td>
+  </tr>
+</table>
 
 ## CAN Bus Wiring
 Both MCP2515 modules are connected using a twisted pair:
