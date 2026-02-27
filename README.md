@@ -84,14 +84,6 @@ This project uses two separate CAN nodes:
 STM32F429 Discovery board
 MCP2515 module with 8 MHz crystal
 SPI connections:
-MCP2515          STM32F429
-SCK       -->     PA5
-MISO      -->     PA6
-MOSI      -->     PA7
-CS        -->     PB12
-INT       -->     PB0 (optional)
-VCC       -->    5V
-GND       -->    GND
 <table>
   <tr>
     <th>MCP2515 Pin</th>
@@ -133,14 +125,6 @@ GND       -->    GND
 STM32F411 Nucleo board
 MCP2515 
 SPI connections:
-MCP2515          STM32F411
-SCK       -->     PA5
-MISO      -->     PA6
-MOSI      -->     PA7
-CS        -->     PB12
-INT       -->     PB0 (optional)
-VCC       -->    5V
-GND       -->    GND
 <table>
   <tr>
     <th>MCP2515 Pin</th>
