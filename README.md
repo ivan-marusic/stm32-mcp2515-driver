@@ -28,30 +28,27 @@ This driver was written from scratch:
 ## Features
 ### Custom MCP2515 driver
 
-Reset via SPI (0xC0)
-Register read/write
-Bit modify (BITMOD)
-Load TX buffer
-Request‑to‑Send
-Receive from RXB0/RXB1
-Parse standard 11‑bit CAN IDs
-Clear interrupt flags
+- Reset via SPI (0xC0)
+- Register read/write
+- Bit modify (BITMOD)
+- Load TX buffer
+- Request‑to‑Send
+- Receive from RXB0/RXB1
+- Parse standard 11‑bit CAN IDs
+- Clear interrupt flags
 
 ### CAN configuration
 
-Bit timing for 8 MHz crystal @ 500 kbps
-Compatible with TJA1050/MCP2551 transceiver
+- Bit timing for 8 MHz crystal @ 500 kbps
+- Compatible with TJA1050/MCP2551 transceiver
 
 ### Example applications
 
-STM32F429 → sender
-STM32F411 → receiver
+- STM32F429 → sender
+- STM32F411 → receiver
 
-### Hardware documentation
+## Wiring diagrams
 
-Wiring diagrams
-Real photos
-Bus topology
 
 ## Repository Structure
 <pre style="pointer-events: none;">
