@@ -81,8 +81,8 @@ This project uses two separate CAN nodes:
 
 ### Node A – STM32F429 + MCP2515
 
-STM32F429 Discovery board
-MCP2515 module with 8 MHz crystal
+- STM32F429 Discovery board
+- MCP2515 module with 8 MHz crystal
 
 SPI connections:
 <table>
@@ -123,8 +123,8 @@ SPI connections:
 
 ### Node B – STM32F411 + MCP2515
 
-STM32F411 Nucleo board
-MCP2515 
+- STM32F411 Nucleo board
+- MCP2515 module with 8 MHz crystal
 
 SPI connections:
 <table>
@@ -167,7 +167,20 @@ Both MCP2515 modules are connected using a twisted pair:
 CANH      -->    CANH
 CANL      -->    CANL
 GND       -->    GND
-
+<table>
+  <tr>
+    <th>CANH </th>
+    <th>CANH </th>
+  </tr>
+  <tr>
+    <th>CANL </th>
+    <th>CANL </th>
+  </tr>
+  <tr>
+    <th>GND </th>        
+    <th>GND </th>
+  </tr>
+</table>
 ## Hardware Photos
 
 
