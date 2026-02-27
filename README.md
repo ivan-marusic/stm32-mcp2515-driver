@@ -83,6 +83,7 @@ This project uses two separate CAN nodes:
 
 STM32F429 Discovery board
 MCP2515 module with 8 MHz crystal
+
 SPI connections:
 <table>
   <tr>
@@ -124,6 +125,7 @@ SPI connections:
 
 STM32F411 Nucleo board
 MCP2515 
+
 SPI connections:
 <table>
   <tr>
