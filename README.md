@@ -229,10 +229,6 @@ The default bitrate is:
 - 500 kbps @ 8 MHz crystal
 
 Registers used:
-Register            Value
-CNF1                0x00
-CNF2                0x90
-CNF3                0x82
 <table>
   <tr>
     <th>Register</th>
