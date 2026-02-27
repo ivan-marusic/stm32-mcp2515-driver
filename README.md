@@ -169,16 +169,16 @@ CANL      -->    CANL
 GND       -->    GND
 <table>
   <tr>
-    <th>CANH </th>
-    <th>CANH </th>
+    <td>CANH </td>
+    <td>CANH </td>
   </tr>
   <tr>
-    <th>CANL </th>
-    <th>CANL </th>
+    <td>CANL </td>
+    <td>CANL </td>
   </tr>
   <tr>
-    <th>GND </th>        
-    <th>GND </th>
+    <td>GND </td>        
+    <td>GND </td>
   </tr>
 </table>
 ## Hardware Photos
