@@ -54,7 +54,8 @@ Real photos
 Bus topology
 
 ## Repository Structure
-```stm32-mcp2515-driver/
+```
+stm32-mcp2515-driver/
 │
 ├─ Drivers/
 │  └─ mcp2515/
