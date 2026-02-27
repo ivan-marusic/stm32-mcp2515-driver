@@ -1,1 +1,19 @@
+# STM32 build output
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.log
 
+# CubeIDE metadata
+.settings/
+.cproject
+.project
+
+# OS
+Thumbs.db
+desktop.ini
