@@ -57,23 +57,36 @@ Bus topology
 stm32-mcp2515-driver/
 │
 ├─ Drivers/
+
 │  └─ mcp2515/
+
 │     ├─ mcp2515.c
+
 │     └─ mcp2515.h
+
 │
 ├─ examples/
-│  ├─ stm32f429_sender/
+
+│  ├─stm32f429_sender/
+
 │  │   └─ main.c
+
 │  └─ stm32f411_receiver/
+
 │      └─ main.c
 │
 ├─ hardware/
+
 │  ├─ stm32f429_mcp2515.jpg
+
 │  ├─ stm32f411_mcp2515.jpg
+
 │  └─ can_bus_wiring.jpg
 │
 ├─ .gitignore
+
 ├─ LICENSE
+
 └─ README.md
 
 ## Hardware
