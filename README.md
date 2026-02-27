@@ -92,6 +92,41 @@ CS        -->     PB12
 INT       -->     PB0 (optional)
 VCC       -->    5V
 GND       -->    GND
+<table>
+  <tr>
+    <th>MCP2515 Pin</th>
+    <th>STM32F429 Pin</th>
+  </tr>
+  <tr>
+    <td>SCK</td>
+    <td>PA5</td>
+  </tr>
+  <tr>
+    <td>MISO</td>
+    <td>PA6</td>
+  </tr>
+  <tr>
+    <td>MOSI</td>
+    <td>PA7</td>
+  </tr>
+  <tr>
+    <td>CS</td>
+    <td>PB12</td>
+  </tr>
+  <tr>
+    <td>INT</td>
+    <td>PB0 (optional)</td>
+  </tr>
+  <tr>
+    <td>VCC</td>
+    <td>5V</td>
+  </tr>
+  <tr>
+    <td>GND</td>
+    <td>GND</td>
+  </tr>
+</table>
+
 
 ### Node B – STM32F411 + MCP2515
 
@@ -156,14 +191,35 @@ MCP2515_SetNormalMode(&hcan);
 MCP2515_WriteRegister(&hcan, MCP_CANINTE,
                       CANINTF_RX0IF | CANINTF_RX1IF);
 ```
-Bitrate
-The default bitrate is:
 
-500 kbps @ 8 MHz crystal
+## Bitrate
+The default bitrate is:
+- 500 kbps @ 8 MHz crystal
 
 Registers used:
 Register            Value
 CNF1                0x00
 CNF2                0x90
 CNF3                0x82
-
+<table>
+  <tr>
+    <th>Register</th>
+    <th>Value</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>CNF1</td>
+    <td>0x00</td>
+    <td>BRP=0, SJW=1</td>
+  </tr>
+  <tr>
+    <td>CNF2</td>
+    <td>0x90</td>
+    <td>BTLMODE=1, PHSEG1=3, PRSEG=1</td>
+  </tr>
+  <tr>
+    <td>CNF3</td>
+    <td>0x82</td>
+    <td>PHSEG2=3</td>
+  </tr>
+</table>
